@@ -1,0 +1,6 @@
+name: sDiscord
+version: ${project.version}
+main: eu.SkyFull.sDiscord.Main
+api-version: 1.16
+authors: [GGGEDR]
+depend: [PlaceholderAPI, Essentials, Votifier, AdvancedBan]
