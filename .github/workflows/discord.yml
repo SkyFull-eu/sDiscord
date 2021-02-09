@@ -1,0 +1,17 @@
+name: Discord Webhook
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  report:
+    name: Discord Webhook
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run Discord Webhook
+      uses: Slimefun/discord-webhook@master
+      with:
+        id: '808661570913697812'
+        token: ${{ secrets.webhook_token }}
